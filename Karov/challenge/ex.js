@@ -1,4 +1,4 @@
-function showGrade() {
+(function showGrade() {
     let student = prompt("Please enter a student name: ");
 
     const students = ["John", "Jane"];
@@ -14,9 +14,7 @@ function showGrade() {
     } else {
        resultDiv.innerText = `No student with name "${student}" found.`;
     }
-}
-
-showGrade();
+}());
 
 function colorizeResult(grade, resultElement) {
     if (grade < 60) {
@@ -26,9 +24,9 @@ function colorizeResult(grade, resultElement) {
         
     } else if (grade < 100) {
         resultElement.style.color = "green";
-
+        
     } else if (grade == 100 ) {
         resultElement.style.color = "blue";
-
     }
 }
+
