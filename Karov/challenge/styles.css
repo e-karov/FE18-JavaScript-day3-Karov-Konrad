@@ -1,0 +1,9 @@
+.container {
+    background-color: darkgray;
+    width: 70%;
+    height: 10vh;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: .5rem;
+}
