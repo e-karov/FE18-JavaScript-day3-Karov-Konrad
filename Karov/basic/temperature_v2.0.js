@@ -2,7 +2,7 @@ function showWeather() {
     let minNumber = -10;
     let maxNumber = 38;
 
-    let temperature = Math.floor(Math.random() * (maxNumber - minNumber) + minNumber) ;
+    let temperature = Math.floor(Math.random() * (maxNumber - minNumber + 1) + minNumber) ;
     let output = "";
 
     if (temperature < 0) {
