@@ -1,0 +1,68 @@
+.wrapper {
+    background-color: lavender;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 3rem auto;
+    padding: 1rem;
+    
+}
+
+.freeze {
+    background-image: url("https://saultonline.com/wp-content/uploads/2017/12/snow-cold-thermometer.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lightskyblue;
+}
+
+.cold {
+    background-image: url("https://i2-prod.mylondon.news/incoming/article25205097.ece/ALTERNATES/s615b/2_GettyImages-527499824.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.moderate {
+    background-image: url("https://images.pexels.com/photos/1107717/pexels-photo-1107717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lightgoldenrodyellow;
+}
+
+.hot {
+    background-image: url("https://media.istockphoto.com/id/1218076522/de/foto/hei%C3%9Fer-sommer-oder-hitzewellenhintergrund.jpg?s=612x612&w=is&k=20&c=6kiZOQ42691nZqLd9zYZC0B_at8uj4qFOzHSFNPuU38=");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+}
+
+.container {
+    display: flex;
+    justify-content:flex-end;
+    color: black;
+}
+
+.temperature {
+    align-self: flex-end;
+    justify-self: flex-start;
+    color: black;
+}
+
+.hero {
+    height: 60vh;
+    margin-top: 2rem;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
